@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities", "Yinyang.Utilities\Yinyang.Utilities.csproj", "{ED59A508-E45D-47CE-8D96-CDDB880049BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9858658B-98CE-4031-A54A-B35FE0DAFF4D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE.md = LICENSE.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.Npgsql", "Yinyang.Utilities.Npgsql\Yinyang.Utilities.Npgsql.csproj", "{918992C6-4942-40D8-BE5C-56976ABDF8F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SqlServer", "Yinyang.Utilities.SqlServer\Yinyang.Utilities.SqlServer.csproj", "{CDAA874A-A6D3-4B09-87B2-0350BF9BB2B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SQLite", "Yinyang.Utilities.SQLite\Yinyang.Utilities.SQLite.csproj", "{D58B627B-C9AF-4701-8EB4-A3EED2B81B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED59A508-E45D-47CE-8D96-CDDB880049BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED59A508-E45D-47CE-8D96-CDDB880049BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED59A508-E45D-47CE-8D96-CDDB880049BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED59A508-E45D-47CE-8D96-CDDB880049BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918992C6-4942-40D8-BE5C-56976ABDF8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918992C6-4942-40D8-BE5C-56976ABDF8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918992C6-4942-40D8-BE5C-56976ABDF8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918992C6-4942-40D8-BE5C-56976ABDF8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAA874A-A6D3-4B09-87B2-0350BF9BB2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAA874A-A6D3-4B09-87B2-0350BF9BB2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAA874A-A6D3-4B09-87B2-0350BF9BB2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAA874A-A6D3-4B09-87B2-0350BF9BB2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58B627B-C9AF-4701-8EB4-A3EED2B81B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58B627B-C9AF-4701-8EB4-A3EED2B81B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58B627B-C9AF-4701-8EB4-A3EED2B81B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58B627B-C9AF-4701-8EB4-A3EED2B81B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CAD5FD1-B065-480D-B0F3-FAE104C91109}
+	EndGlobalSection
+EndGlobal
