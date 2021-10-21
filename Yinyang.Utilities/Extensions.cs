@@ -7,10 +7,10 @@ namespace Yinyang.Utilities
         /// <summary>
         ///     Copy Properties
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <typeparam name="TU"></typeparam>
-        /// <param name="source"></param>
-        /// <param name="dest"></param>
+        /// <typeparam name="T">type</typeparam>
+        /// <typeparam name="TU">type</typeparam>
+        /// <param name="source">Source object</param>
+        /// <param name="dest">Dest object</param>
         public static void CopyPropertiesTo<T, TU>(T source, TU dest)
         {
             var sourceProps = typeof(T).GetProperties().Where(x => x.CanRead).ToList();
