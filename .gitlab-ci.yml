@@ -1,0 +1,10 @@
+image: mcr.microsoft.com/dotnet/sdk
+stages:
+  - build
+job1:
+  stage: build
+  script:
+    - dotnet restore
+    - dotnet build
+  tags:
+    - docker

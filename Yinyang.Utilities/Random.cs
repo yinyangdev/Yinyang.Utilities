@@ -5,7 +5,7 @@ using System.Threading;
 namespace Yinyang.Utilities
 {
     /// <summary>
-    /// Random Utility
+    ///     Random Utility
     /// </summary>
     public static class Random
     {
@@ -23,7 +23,7 @@ namespace Yinyang.Utilities
         /// <summary>
         ///     Get Random
         /// </summary>
-        /// <returns></returns>
+        /// <returns>System.Random</returns>
         public static System.Random GetRandom()
         {
             return RandomWrapper.Value;
@@ -32,7 +32,7 @@ namespace Yinyang.Utilities
         /// <summary>
         ///     NextBytes
         /// </summary>
-        /// <param name="buffer"></param>
+        /// <param name="buffer">buffer</param>
         public static void NextBytes(byte[] buffer)
         {
             GetRandom().NextBytes(buffer);
@@ -41,7 +41,7 @@ namespace Yinyang.Utilities
         /// <summary>
         ///     NextDouble
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Random double value.</returns>
         public static double NextDouble()
         {
             return GetRandom().NextDouble();
@@ -50,7 +50,7 @@ namespace Yinyang.Utilities
         /// <summary>
         ///     Next
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Random int value.</returns>
         public static int Next()
         {
             return GetRandom().Next();
@@ -60,7 +60,7 @@ namespace Yinyang.Utilities
         ///     Next
         /// </summary>
         /// <param name="maxValue">Max Value</param>
-        /// <returns></returns>
+        /// <returns>Random int value.</returns>
         public static int Next(int maxValue)
         {
             return GetRandom().Next(maxValue);
@@ -71,7 +71,7 @@ namespace Yinyang.Utilities
         /// </summary>
         /// <param name="minValue">Min Value</param>
         /// <param name="maxValue">Max Value</param>
-        /// <returns></returns>
+        /// <returns>Random int value.</returns>
         public static int Next(int minValue, int maxValue)
         {
             return GetRandom().Next(minValue, maxValue);

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>0.2.0</Version>
+    <Description>Yinyang Utilities Samples</Description>
+    <Copyright>Copyright 2021 Yinyang</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/yinyangdev/yinyang.utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yinyangdev/yinyang.utilities</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md" Link="LICENSE.md" />
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md" Link="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yinyang.Utilities.Npgsql\Yinyang.Utilities.Npgsql.csproj" />
+    <ProjectReference Include="..\Yinyang.Utilities.SQLite\Yinyang.Utilities.SQLite.csproj" />
+    <ProjectReference Include="..\Yinyang.Utilities.SqlServer\Yinyang.Utilities.SqlServer.csproj" />
+    <ProjectReference Include="..\Yinyang.Utilities\Yinyang.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Random\" />
+    <Folder Include="Hash\" />
+  </ItemGroup>
+
+</Project>
