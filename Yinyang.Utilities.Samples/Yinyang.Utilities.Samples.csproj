@@ -12,7 +12,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE.md" Link="LICENSE.md" />
+    <Compile Remove="Hash\**" />
+    <Compile Remove="Random\**" />
+    <EmbeddedResource Remove="Hash\**" />
+    <EmbeddedResource Remove="Random\**" />
+    <None Remove="Hash\**" />
+    <None Remove="Random\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -21,15 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Yinyang.Utilities.Npgsql\Yinyang.Utilities.Npgsql.csproj" />
-    <ProjectReference Include="..\Yinyang.Utilities.SQLite\Yinyang.Utilities.SQLite.csproj" />
-    <ProjectReference Include="..\Yinyang.Utilities.SqlServer\Yinyang.Utilities.SqlServer.csproj" />
     <ProjectReference Include="..\Yinyang.Utilities\Yinyang.Utilities.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Random\" />
-    <Folder Include="Hash\" />
   </ItemGroup>
 
 </Project>
