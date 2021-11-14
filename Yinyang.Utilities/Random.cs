@@ -11,7 +11,7 @@ namespace Yinyang.Utilities
     {
         private static readonly ThreadLocal<System.Random> RandomWrapper = new ThreadLocal<System.Random>(() =>
         {
-            using (var rng = new RNGCryptoServiceProvider())
+            using (var rng = RandomNumberGenerator.Create())
             {
                 var buffer = new byte[sizeof(int)];
                 rng.GetBytes(buffer);
