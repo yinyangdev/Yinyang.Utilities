@@ -4,7 +4,7 @@
     <TargetFrameworks>net472;netcoreapp3.1;netstandard2.1;net5;net6</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NeutralLanguage></NeutralLanguage>
-    <Version>0.2.1</Version>
+    <Version>0.2.2</Version>
     <Authors>Yinyang</Authors>
     <Product>Yinyang.Utilities</Product>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
